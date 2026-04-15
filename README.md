@@ -5,6 +5,7 @@ git add .
 git commit -m "Estructura inicial del proyecto"  
 git branch desarrollo  
 git switch desarrollo  
+git push -u origin desarrollo
 git merge desarrollo  
 git diff  
 git reset --hard HEAD~1  
