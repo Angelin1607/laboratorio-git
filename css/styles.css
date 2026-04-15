@@ -76,3 +76,62 @@ footer {
     color: #f95c91;
     background-color: #f6eaee;
 }
+#bodyLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255, 77, 136, 0.3);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+}
+
+#bodyLogin h2 {
+    color: #ff4d88;
+    margin-bottom: 20px;
+}
+
+#bodyLogin input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ffb3c6;
+    outline: none;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+#bodyLogin input:focus {
+    box-shadow: 0 0 8px rgba(255, 77, 136, 0.5);
+    transform: scale(1.02);
+}
+
+#bodyLogin button {
+    background-color: #ff4d88;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#bodyLogin button:hover {
+    background-color: #ff85a2;
+    transform: scale(1.05);
+}
+
+#bodyLogin p {
+    color: #cc3366;
+}
